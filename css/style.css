@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+*{
+    font-family: 'Roboto';
+}
+
+.main-main{
+    background: red;
+}
+
+h1{
+    text-align: center;
+    color: #0000ff;
+    margin: 20px auto 50px auto;
+}
+
+.artigos{
+    max-width: 100%;
+    max-height: 100%;
+    border: transparent 1px black;
+    margin-bottom: 40px;
+    padding: 10px;
+    background: #e0e0e0;
+    -webkit-box-shadow: 0px 7px 31px 5px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 7px 31px 5px rgba(0,0,0,1);
+    box-shadow: 0px 7px 31px 5px rgba(0,0,0,1);
+}
+
+.artigos>h2{
+    
+    color: #0000ff;
+}
+.artigos>p{
+}
+.artigos>cite{
+}
+.artigos>img{
+    width: 250px;
+    border-radius: 10px;
+}
+.artigos>a{
+    text-decoration: none;
+    color: #0000ff;
+    transition: 0.5s;
+    padding: 2px;
+}
+.artigos>a:hover{
+    background: #0000ff;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+
+
+aside{
+    background: aliceblue;
+    color: rgb(0, 0, 0);
+    margin: 50px auto;
+    text-align: center;
+    width: 550px;
+    height: 250px;
+    border: 1px solid rgb(184, 182, 182);
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 7px 11px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 7px 11px 1px rgba(0,0,0,1);
+    box-shadow: 0px 7px 11px 1px rgba(0,0,0,1);
+}
+
+
+aside>h2{
+}
+
+form>label{
+    font-weight: 600;
+    font-size:larger;
+}
+form>input{
+    margin: 20px;
+    padding: 5px;
+    width: 190px;
+    border: #0000ff solid 2px;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 5px;
+    
+}
+
+form>input::placeholder{
+    transition: 0.5s;
+    outline: none;
+}
+
+form>input:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    border: #0000ff solid 2px;
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.55);
+        
+}
+
+form>input:focus{
+    outline: none;
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.55);
+}
+
+form>input:focus::placeholder{
+    color: transparent;
+    transition: 0.5s;
+}
+form>input:hover::placeholder{
+    color: transparent;
+    transition: 0.5s;
+}
+
+form>button{
+    width: 200px;
+    padding: 8px;
+    color: #0000ff;
+    cursor: pointer;
+    border: solid 2px #0000ff;
+    transition: 0.5s;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+form>button:hover{
+    background: #0000ff;
+    transition: 0.5s;
+    color: aliceblue;
+}
