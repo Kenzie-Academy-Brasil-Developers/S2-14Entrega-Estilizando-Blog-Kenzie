@@ -40,14 +40,19 @@ h1{
 }
 .artigos>a{
     text-decoration: none;
-    color: #0000ff;
+    color: aliceblue;
+    background: #0000ff;
     transition: 0.5s;
-    padding: 2px;
+    padding: 1px;  
+    border: solid 1px transparent;
+     
 }
 .artigos>a:hover{
-    background: #0000ff;
-    color: aliceblue;
+    background: aliceblue;
+    color:  #0000ff;
     transition: 0.5s;
+    border: solid 1px #0000ff;
+ 
 }
 
 
